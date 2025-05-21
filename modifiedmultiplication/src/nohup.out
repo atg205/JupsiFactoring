@@ -1,0 +1,1326 @@
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+689
+689
+689
+689
+689
+689
+689
+689
+689
+Traceback (most recent call last):
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/util/ssl_.py", line 440, in ssl_wrap_socket
+    context.load_verify_locations(ca_certs, ca_cert_dir, ca_cert_data)
+OSError: [Errno 24] Too many open files
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connection.py", line 653, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connection.py", line 806, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/util/ssl_.py", line 442, in ssl_wrap_socket
+    raise SSLError(e) from e
+urllib3.exceptions.SSLError: [Errno 24] Too many open files
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 877, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 877, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 877, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 7 more times]
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='eu-central-1.cloud.dwavesys.com', port=443): Max retries exceeded with url: /sapi/v2/solvers/remote/ (Caused by SSLError(OSError(24, 'Too many open files')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home0/hanussek/Documents/modifiedmultiplication/src/main.py", line 164, in <module>
+    run_compare_block_sizes()
+  File "/home0/hanussek/Documents/modifiedmultiplication/src/main.py", line 157, in run_compare_block_sizes
+    result,success_rate = P.run_get_success_rates()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/src/helpers/ProblemCreator.py", line 283, in run_get_success_rates
+    self.init_solving()
+  File "/home0/hanussek/Documents/modifiedmultiplication/src/helpers/ProblemCreator.py", line 275, in init_solving
+    self.sampler = DWaveSampler(region='eu-central-1')  # alternativ um eine QPU in Nordamerika auszuwählen: sampler = DWaveSampler(region='na-west-1')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/system/samplers/dwave_sampler.py", line 184, in __init__
+    self.solver = self._get_solver(penalty=self._solver_penalty)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/system/samplers/dwave_sampler.py", line 199, in _get_solver
+    solvers = self.client.get_solvers(refresh=refresh, order_by=order_by, **filters)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/events.py", line 105, in wrapped
+    rval = fn(*pargs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/client/base.py", line 1065, in get_solvers
+    solvers = self._fetch_solvers(**query)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/utils.py", line 619, in wrapper
+    val = fn(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/client/base.py", line 702, in _fetch_solvers
+    data = Client._sapi_request(self.session.get, url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/client/base.py", line 1660, in _sapi_request
+    response = meth(*args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/requests/sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/utils.py", line 347, in request
+    return super().request(method, url, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/utils.py", line 320, in send
+    return super().send(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/requests/adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='eu-central-1.cloud.dwavesys.com', port=443): Max retries exceeded with url: /sapi/v2/solvers/remote/ (Caused by SSLError(OSError(24, 'Too many open files')))
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+143
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+187
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+209
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+253
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+169
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+221
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+247
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+517
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+737
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+979
+689
+689
+689
+689
+689
+689
+689
+689
+689
+Traceback (most recent call last):
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/util/ssl_.py", line 440, in ssl_wrap_socket
+    context.load_verify_locations(ca_certs, ca_cert_dir, ca_cert_data)
+OSError: [Errno 24] Too many open files
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connection.py", line 653, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connection.py", line 806, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/util/ssl_.py", line 442, in ssl_wrap_socket
+    raise SSLError(e) from e
+urllib3.exceptions.SSLError: [Errno 24] Too many open files
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 877, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 877, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 877, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 7 more times]
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='eu-central-1.cloud.dwavesys.com', port=443): Max retries exceeded with url: /sapi/v2/solvers/remote/ (Caused by SSLError(OSError(24, 'Too many open files')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home0/hanussek/Documents/modifiedmultiplication/src/main.py", line 164, in <module>
+    run_compare_block_sizes()
+  File "/home0/hanussek/Documents/modifiedmultiplication/src/main.py", line 157, in run_compare_block_sizes
+    result,success_rate = P.run_get_success_rates()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/src/helpers/ProblemCreator.py", line 283, in run_get_success_rates
+    self.init_solving()
+  File "/home0/hanussek/Documents/modifiedmultiplication/src/helpers/ProblemCreator.py", line 275, in init_solving
+    self.sampler = DWaveSampler(region='eu-central-1')  # alternativ um eine QPU in Nordamerika auszuwählen: sampler = DWaveSampler(region='na-west-1')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/system/samplers/dwave_sampler.py", line 184, in __init__
+    self.solver = self._get_solver(penalty=self._solver_penalty)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/system/samplers/dwave_sampler.py", line 199, in _get_solver
+    solvers = self.client.get_solvers(refresh=refresh, order_by=order_by, **filters)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/events.py", line 105, in wrapped
+    rval = fn(*pargs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/client/base.py", line 1065, in get_solvers
+    solvers = self._fetch_solvers(**query)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/utils.py", line 619, in wrapper
+    val = fn(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/client/base.py", line 702, in _fetch_solvers
+    data = Client._sapi_request(self.session.get, url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/client/base.py", line 1660, in _sapi_request
+    response = meth(*args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/requests/sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/utils.py", line 347, in request
+    return super().request(method, url, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/utils.py", line 320, in send
+    return super().send(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/requests/adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='eu-central-1.cloud.dwavesys.com', port=443): Max retries exceeded with url: /sapi/v2/solvers/remote/ (Caused by SSLError(OSError(24, 'Too many open files')))
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2101
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+2669
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4031
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+4087
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+2977
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3151
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3397
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+3421
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+2831
+3293
+3293
+3293
+3293
+3293
+3293
+3293
+3293
+3293
+3293
+3293
+3293
+3293
+3293
+3293
+Traceback (most recent call last):
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/util/ssl_.py", line 440, in ssl_wrap_socket
+    context.load_verify_locations(ca_certs, ca_cert_dir, ca_cert_data)
+OSError: [Errno 24] Too many open files
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connection.py", line 653, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connection.py", line 806, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/util/ssl_.py", line 442, in ssl_wrap_socket
+    raise SSLError(e) from e
+urllib3.exceptions.SSLError: [Errno 24] Too many open files
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 877, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 877, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 877, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 7 more times]
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='eu-central-1.cloud.dwavesys.com', port=443): Max retries exceeded with url: /sapi/v2/solvers/remote/ (Caused by SSLError(OSError(24, 'Too many open files')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home0/hanussek/Documents/modifiedmultiplication/src/main.py", line 164, in <module>
+    run_compare_block_sizes()
+  File "/home0/hanussek/Documents/modifiedmultiplication/src/main.py", line 157, in run_compare_block_sizes
+    result,success_rate = P.run_get_success_rates()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/src/helpers/ProblemCreator.py", line 283, in run_get_success_rates
+    self.init_solving()
+  File "/home0/hanussek/Documents/modifiedmultiplication/src/helpers/ProblemCreator.py", line 275, in init_solving
+    self.sampler = DWaveSampler(region='eu-central-1')  # alternativ um eine QPU in Nordamerika auszuwählen: sampler = DWaveSampler(region='na-west-1')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/system/samplers/dwave_sampler.py", line 184, in __init__
+    self.solver = self._get_solver(penalty=self._solver_penalty)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/system/samplers/dwave_sampler.py", line 199, in _get_solver
+    solvers = self.client.get_solvers(refresh=refresh, order_by=order_by, **filters)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/events.py", line 105, in wrapped
+    rval = fn(*pargs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/client/base.py", line 1065, in get_solvers
+    solvers = self._fetch_solvers(**query)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/utils.py", line 619, in wrapper
+    val = fn(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/client/base.py", line 702, in _fetch_solvers
+    data = Client._sapi_request(self.session.get, url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/client/base.py", line 1660, in _sapi_request
+    response = meth(*args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/requests/sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/utils.py", line 347, in request
+    return super().request(method, url, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/dwave/cloud/utils.py", line 320, in send
+    return super().send(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home0/hanussek/Documents/modifiedmultiplication/.venv/lib64/python3.11/site-packages/requests/adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='eu-central-1.cloud.dwavesys.com', port=443): Max retries exceeded with url: /sapi/v2/solvers/remote/ (Caused by SSLError(OSError(24, 'Too many open files')))

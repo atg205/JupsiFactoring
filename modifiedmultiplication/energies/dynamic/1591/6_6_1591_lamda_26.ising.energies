@@ -1,0 +1,11 @@
+Running xubo_ising --all-states with file='IsingTerms/1591/6_6_1591_lamda_26.ising'
+	Number of h terms: 30
+	Number of J terms: 259
+	Number of qubits: 30
+	Number of states: 1073741824
+Resources:
+	Number of GPUs: 0
+	Number of GPU threads: 512
+	Number of OpenMP threads: 12
+Parameters:
+	numstates: 1024

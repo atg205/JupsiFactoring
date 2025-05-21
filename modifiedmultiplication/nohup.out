@@ -1,0 +1,527 @@
+python: can't open file '/home0/hanussek/Documents/modifiedmultiplication/main.py': [Errno 2] No such file or directory
+-----------------------
+Lamda 1
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+65   1   0    0   1   1  ...  -808.0                1  159  151  False
+
+[1 rows x 65 columns]
+59989
+   c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+4   0   1    0   1   0  ...  -841.0                1  167  143  False
+
+[1 rows x 65 columns]
+59989
+   c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+0   1   0    0   1   1  ... -1051.0                1  135  223  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+17   0   0    0   0   0  ...  -783.0                1  135  215  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+348   0   1    0   0   0  ...  -771.0                1  151  175  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+475   1   0    1   1   0  ...  -816.0                1  183  175  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+155   1   0    0   1   0  ...  -795.0                1  175  159  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+281   1   0    0   1   0  ...  -867.0                1  167  183  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+306   0   1    0   1   1  ...  -859.0                1  191  159  False
+
+[1 rows x 65 columns]
+59989
+   c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+4   1   0    0   0   0  ...  -823.0                1  133  183  False
+
+[1 rows x 65 columns]
+-----------------------
+Lamda 112
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+13   1   0    0   0   1  ...    21.0                1  253  241  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+132   1   0    0   1   1  ...     6.0                1  251  243  False
+
+[1 rows x 65 columns]
+59989
+   c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+0   0   1    0   0   1  ...    48.0                1  191  205  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+117   0   1    0   0   0  ...    89.0                1  255  179  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+15   0   1    0   0   0  ...    25.0                1  255  219  False
+
+[1 rows x 65 columns]
+59989
+   c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+4   1   0    0   1   1  ...    23.0                1  219  245  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+43   1   0    0   1   0  ...    31.0                1  255  193  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+56   0   1    0   1   1  ...     7.0                1  223  237  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+206   1   0    0   0   1  ...   126.0                1  247  133  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+23   0   1    0   1   1  ...    28.0                1  231  219  False
+
+[1 rows x 65 columns]
+-----------------------
+Lamda 223
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+111   1   0    0   1   1  ...    70.0                1  187  247  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+118   0   0    0   0   1  ...    57.0                1  253  245  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+484   0   1    0   0   0  ...   238.0                1  223  159  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+53   0   0    0   0   0  ...    86.0                1  137  213  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+23   0   0    0   1   0  ...    38.0                1  221  193  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+705   0   1    0   0   1  ...    53.0                1  191  135  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+39   1   0    0   0   1  ...    83.0                1  255  165  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+119   1   0    0   0   1  ...    22.0                1  251  195  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+26   0   1    0   0   1  ...    95.0                1  247  157  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+178   0   1    1   0   0  ...    84.0                1  255  251  False
+
+[1 rows x 65 columns]
+-----------------------
+Lamda 334
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+463   1   0    0   1   1  ...    76.0                1  187  249  False
+
+[1 rows x 65 columns]
+59989
+   c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+1   1   0    0   0   1  ...   133.0                1  209  255  False
+
+[1 rows x 65 columns]
+59989
+   c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+5   1   0    0   1   0  ...   147.0                1  193  255  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+375   0   1    0   0   1  ...    90.0                1  141  251  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+19   1   0    0   1   0  ...   123.0                1  131  189  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+441   0   1    0   1   1  ...    34.0                1  175  253  False
+
+[1 rows x 65 columns]
+59989
+   c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+6   1   0    0   1   1  ...    42.0                1  217  255  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+20   0   1    0   0   0  ...    70.0                1  255  155  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+20   0   1    0   1   0  ...    90.0                1  179  221  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+161   0   1    0   0   0  ...   150.0                1  159  237  False
+
+[1 rows x 65 columns]
+-----------------------
+Lamda 445
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+311   0   0    0   1   1  ...    49.0                1  249  247  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+92   1   0    0   1   0  ...    64.0                1  233  231  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+81   0   1    0   1   1  ...    34.0                1  175  253  False
+
+[1 rows x 65 columns]
+59989
+   c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+3   1   0    0   0   0  ...    58.0                1  249  255  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+358   0   1    0   1   0  ...   115.0                1  185  189  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+207   0   0    0   0   1  ...   152.0                1  185  255  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+166   1   0    0   0   1  ...    69.0                1  191  185  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+35   1   0    0   0   1  ...    40.0                1  195  253  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+136   1   1    0   0   0  ...   126.0                1  191  221  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+49   1   0    0   0   1  ...    27.0                1  229  249  False
+
+[1 rows x 65 columns]
+-----------------------
+Lamda 556
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+542   0   1    0   0   0  ...    47.0                1  189  255  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+233   1   0    0   0   1  ...   114.0                1  143  233  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+158   1   0    0   1   1  ...    86.0                1  221  213  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+636   1   0    0   1   0  ...   203.0                1  129  251  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+38   0   1    0   0   0  ...   211.0                1  249  223  False
+
+[1 rows x 65 columns]
+59989
+   c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+0   1   0    0   1   1  ...    71.0                1  249  239  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+267   0   1    0   1   1  ...    29.0                1  159  247  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+159   1   0    0   0   0  ...    46.0                1  249  239  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+232   0   1    0   0   0  ...    47.0                1  219  239  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+657   0   1    0   0   1  ...   139.0                1  249  151  False
+
+[1 rows x 65 columns]
+-----------------------
+Lamda 667
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+854   0   1    0   1   0  ...   134.0                1  191  191  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+166   0   1    0   1   0  ...   137.0                1  155  179  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+13   1   0    0   1   1  ...    94.0                1  211  251  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+284   1   0    0   0   1  ...    51.0                1  249  233  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+30   1   0    0   1   0  ...    60.0                1  215  135  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+58   1   0    0   1   0  ...    31.0                1  189  149  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+341   0   1    0   1   1  ...    75.0                1  245  255  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+63   1   0    0   1   0  ...   106.0                1  255  209  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+75   0   1    0   0   0  ...   152.0                1  223  207  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+61   1   0    0   0   1  ...    75.0                1  253  225  False
+
+[1 rows x 65 columns]
+-----------------------
+Lamda 778
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+35   1   1    0   0   1  ...    84.0                1  207  199  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+147   1   1    0   1   1  ...    69.0                1  159  247  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+105   0   1    0   0   0  ...   175.0                1  143  255  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+47   0   1    0   0   1  ...    13.0                1  255  139  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+50   1   1    0   1   1  ...    49.0                1  175  223  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+140   1   0    0   0   1  ...    50.0                1  237  237  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+12   1   0    0   1   0  ...    66.0                1  193  255  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+325   0   1    0   0   0  ...    78.0                1  159  251  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+26   0   1    0   1   1  ...   162.0                1  199  239  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+178   0   1    0   1   0  ...   153.0                1  239  247  False
+
+[1 rows x 65 columns]
+-----------------------
+Lamda 889
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+320   0   1    0   0   0  ...    40.0                1  253  191  False
+
+[1 rows x 65 columns]
+59989
+   c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+0   1   0    0   1   0  ...   117.0                1  207  133  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+390   1   0    0   1   1  ...   131.0                1  221  189  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+239   1   0    0   1   1  ...    34.0                1  187  251  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+328   1   0    0   1   1  ...    70.0                1  173  255  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+59   0   1    0   0   0  ...   127.0                1  239  191  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+70   0   1    0   0   0  ...    37.0                1  183  247  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+89   0   1    0   1   1  ...    99.0                1  223  173  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+308   1   0    0   1   1  ...    38.0                1  185  255  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+625   1   0    0   0   1  ...   179.0                1  249  247  False
+
+[1 rows x 65 columns]
+-----------------------
+Lamda 1000
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+132   0   1    0   1   1  ...    30.0                1  251  159  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+31   1   0    0   1   0  ...    19.0                1  215  163  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+41   1   0    0   0   1  ...    87.0                1  219  159  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+339   0   1    0   0   1  ...   156.0                1  233  141  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+62   1   1    0   0   1  ...    63.0                1  135  191  False
+
+[1 rows x 65 columns]
+59989
+    c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+37   0   1    0   1   1  ...    71.0                1  173  191  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+507   0   1    1   0   1  ...   116.0                1  249  253  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+211   0   1    0   0   0  ...    72.0                1  255  151  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+155   1   0    0   1   1  ...   127.0                1  221  235  False
+
+[1 rows x 65 columns]
+59989
+     c0  c1  c10  c2  c3  ...  energy  num_occurrences    a    b  valid
+296   0   0    0   1   0  ...    33.0                1  245  193  False
+
+[1 rows x 65 columns]
+Traceback (most recent call last):
+  File "/home0/hanussek/Documents/modifiedmultiplication/src/main.py", line 112, in <module>
+    with open(os.path.join(os.getcwd(),'FZJtemp', 'result.pickle'),'wb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home0/hanussek/Documents/modifiedmultiplication/FZJtemp/result.pickle'
+python: can't open file '/home0/hanussek/Documents/modifiedmultiplication/main.py': [Errno 2] No such file or directory
