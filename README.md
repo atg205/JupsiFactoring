@@ -6,6 +6,8 @@ This repository contains data and code related to the bachelor thesis titled **"
 
 The thesis can be accessed via the following DOI link: [https://doi.org/10.34734/FZJ-2024-05254](https://doi.org/10.34734/FZJ-2024-05254)
 
+We implement and evaluate different methods for solving the factorization problem on the D-Wave Quantum Annealer.
+
 ## Factoring Methods
 
 The repository includes data generated using the following methods:
